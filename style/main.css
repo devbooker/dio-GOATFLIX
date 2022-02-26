@@ -1,0 +1,92 @@
+/*elementos principais*/
+
+main {
+	color: white;
+}
+
+.capa {
+	margin-top: ;
+	font-size: 16px;
+	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/img/capa-Ronaldo-United.jpg');
+	width: 100%;
+	height: 550px;
+	background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: ;
+	align-items: flex-start;
+}
+
+.descricao {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.titulo {
+	margin-top: 10px;
+	font-size: 40px;
+	font-family: 'Trebuchet MS', ARIAL, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 10px;
+    margin-left: 20px;
+    margin-right: px;
+    font-size: 12px;
+    
+    cursor: pointer;
+    transition: .3 ease all;
+}
+
+.botao:hover {
+	background-color: white;
+	color: var(--preto);
+	margin-left: 20px;
+}
+
+.botao i {
+	margin-right: 5px;
+	margin-left: px;
+}
+
+.container {
+	margin-left: 20px;
+}
+
+.capa .container {
+	width: ;
+}
+/*It was useless
+.box-video {
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+*/
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.box-video {
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	width: 250px;
+	height: 250px;
+}
+
+nav h4 {
+	color: #AAA;
+	font-size: 25px;
+}
+
+.paragraph {
+	display: inline-block;
+	color: white;
+}
